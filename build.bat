@@ -1,0 +1,1 @@
+g++ src/primeFactorize.cpp -I src -o bin/primeFactorize
