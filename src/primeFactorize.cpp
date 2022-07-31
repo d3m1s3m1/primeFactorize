@@ -40,7 +40,7 @@ int main()
     while (true)
     {
         bool isPrime = true;
-        for (uint1024_t i = start; i <= sqrt(goal); increment(&i))
+        for (uint1024_t i = start; i * i <= goal; increment(&i))
         {
             if (goal % i == 0)
             {
